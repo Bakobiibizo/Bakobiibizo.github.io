@@ -11988,10 +11988,33 @@ textarea.form-control-lg {
 
 html {
   box-sizing: border-box;
+  text-shadow: 2px 2px 2px #000000cf;
+  text-align: center;
   border-width: 0;
   margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+h1, .h1 {
+  font-size: xx-large;
+}
+
+img.first-image {
+  background-color: #0006;
+}
+
+img.alt-image {
+  background-color: #00000080;
+}
+
+main {
+  background: linear-gradient(#6980df 0%, #00d4ff 100%);
+}
+
+.section-container {
+  align-self: center;
 }
 
 .collapse {
